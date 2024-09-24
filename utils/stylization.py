@@ -108,5 +108,3 @@ def test_stylization(image_path):
     # 边缘检测并保存
     edge_image = stylizer.edge_detection()
     stylizer.save_image(edge_image, "edge_image.jpg")
-
-# test_stylization("I:\\人工智能研究院\\线束项目\\202408ComponentsDataset\\images\\IMG_1661.jpg")

@@ -48,6 +48,3 @@ def test_light_weight(image_path):
     resized_image = lighter.resize()
     lighter.save_image(resized_image, "resized_image.jpg")
 
-
-# 示例使用
-test_light_weight("I:\\人工智能研究院\\线束项目\\202408ComponentsDataset\\images\\IMG_1661.jpg")
